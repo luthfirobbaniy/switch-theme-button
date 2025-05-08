@@ -1,0 +1,75 @@
+:root {
+  --background-color: #F2F2F2;
+  --button-background-color: #FFFFFF;
+  --button-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.05);
+  --circle-after-background-color: #FFFFFF;
+  --circle-after-top: -24px;
+  --circle-after-left: 24px;
+  --star-fill: #FFFF00;
+  --star-opacity: 0;
+}
+
+.dark {
+  --background-color: #333333;
+  --button-background-color: #191919;
+  --button-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+  --circle-after-background-color: #191919;
+  --circle-after-top: -6px;
+  --circle-after-left: 6px;
+  --star-fill: #FFFFFF;
+  --star-opacity: 100;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  transition: 1s;
+}
+
+.button {
+  background-color: var(--button-background-color);;
+  position: relative;
+  display: flex;
+  width: 96px;
+  height: 48px;
+  border: 0;
+  border-radius: 24px;
+  box-shadow: var(--button-box-shadow);
+  transition: 1s;
+  margin: auto;
+  padding: 0;
+  cursor: pointer;
+}
+
+.circle {
+  background-color: #FFFF00;
+  position: relative;
+  margin: auto;
+  height: 24px;
+  width: 24px;
+  clip-path: circle();
+  display: flex;
+}
+
+.circle::after {
+  background-color: var(--circle-after-background-color);
+  position: absolute;
+  top: var(--circle-after-top);
+  left: var(--circle-after-left);
+  height: 24px;
+  width: 24px;
+  clip-path: circle();
+  content: "";
+  transition: 1s;
+}
+
+.star {
+  position: absolute;
+  fill: var(--star-fill);
+  opacity: var(--star-opacity);
+  top: 12px;
+  left: 48px;
+  transition: 1s;
+}

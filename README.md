@@ -1,1 +1,1 @@
-# switch-theme-button
+# Switch Theme Button

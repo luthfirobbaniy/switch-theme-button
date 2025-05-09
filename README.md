@@ -6,7 +6,7 @@ Switch theme button by [Luthfi Robbaniy](https://www.instagram.com/luthfirobbani
 
 ## 📽 Video:
 
-- Instagram (Coming soon)
+- [Instagram](https://www.instagram.com/p/DJbXyH-CXxp/)
 - TikTok (Coming soon)
 
 ## ⚖ License

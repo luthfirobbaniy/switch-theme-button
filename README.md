@@ -4,10 +4,10 @@ Switch theme button by [Luthfi Robbaniy](https://www.instagram.com/luthfirobbani
 
 ![Switch Theme Button - gif](https://github.com/user-attachments/assets/900462b8-009f-49cf-87b9-6d8ca9db4a22)
 
-## 📽 Video:
+## 📽 Videos:
 
 - [Instagram](https://www.instagram.com/p/DJbXyH-CXxp/)
-- TikTok (Coming soon)
+- [TikTok](https://www.tiktok.com/@luthfirobbaniy/video/7509367503466941713)
 
 ## ⚖ License
 
